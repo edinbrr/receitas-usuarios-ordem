@@ -1,7 +1,3 @@
-# 📘 Projeto Prático - DGT2820
-
-Trabalho da disciplina **Planejamento e Desenvolvimento de Aplicações Web Interativas** (DGT2820), com o objetivo de aplicar conceitos de JavaScript, DOM, JSON, Vue.js e manipulação de dados em interfaces web interativas.
-
 ---
 
 ## 🧠 Objetivos do Projeto
@@ -25,8 +21,12 @@ exemplosjs/
 ├── bolo.jpg             # Imagem da receita "Bolo de Café"
 ├── coxinha.jpg          # Imagem da receita "Coxinha de Brigadeiro"
 ├── usuarios.html        # Página que consome API REST (reqres.in) com Vue.js
+
+
 🔹 1. Ordenação de Valores (ordenando.html + ordenando.js)
+
 ✨ Funcionalidades:
+
 Campo de input para inserir valores numéricos.
 
 Botões para adicionar, ordenar (com Bubble Sort, Selection Sort ou Quick Sort) e misturar valores.
@@ -36,7 +36,9 @@ Utiliza DOM clássico para criar elementos li dinamicamente e atualizar a interf
 Funções implementadas com Arrow Functions para os algoritmos e manipulação.
 
 🔹 2. Catálogo de Receitas Dinâmico (receitas.html)
+
 ✨ Funcionalidades:
+
 Utiliza vetor de objetos JSON contendo:
 
 título da receita
@@ -54,7 +56,9 @@ Imagens com tamanho padronizado (150px de altura) e interface centralizada.
 Exibição automática no carregamento da página com onload.
 
 🔹 3. Exibição de Usuários via API REST (usuarios.html)
+
 ✨ Funcionalidades:
+
 Consome API pública reqres.in utilizando Vue.js.
 
 Os dados são carregados automaticamente via Fetch API no mounted().
@@ -65,7 +69,8 @@ Exibição de cards responsivos com nome, e-mail e avatar de cada usuário.
 
 Layout centralizado com Bootstrap e flex-wrap.
 
-📌 Tecnologias Utilizadas
+📌 Tecnologias Utilizadas:
+
 HTML5
 
 JavaScript (ES6+)
@@ -80,7 +85,8 @@ Bootstrap 5
 
 Fetch API
 
-🚀 Como Executar
+🚀 Como Executar:
+
 Clone o repositório ou baixe os arquivos.
 
 Abra os arquivos .html no navegador.
@@ -92,6 +98,6 @@ Estar com conexão ativa à internet.
 Preferencialmente utilizar o recurso Live Server do VS Code para evitar problemas de CORS ao consumir a API.
 
 👨‍🏫 Autor
-Projeto desenvolvido por [Seu Nome Aqui]
-Curso: [Nome do Curso]
-Disciplina: DGT2820 - Planejamento e Desenvolvimento de Aplicações Web Interativas
+
+Projeto desenvolvido por Edson Victor
+Curso: Desenvolvimento Full Stack
