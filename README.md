@@ -50,7 +50,7 @@
 ### 1️⃣ Clonar o repositório
 
 ```
-git clone https://github.com/seuusuario/projeto-js-interativo.git
+git clone https://github.com/edinbrr/receitas-usuarios-ordem.git
 ```
 
 2️⃣ Abrir os arquivos HTML
