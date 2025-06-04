@@ -1,6 +1,8 @@
 <h1 align="center">🧠 Projeto JavaScript Interativo</h1> <p align="center"> Aplicação web com ordenação de dados, receitas dinâmicas em JSON e consumo de API REST com Vue.js 🍽️🧮👥 </p>
 
-✨ Tecnologias Utilizadas
+---
+
+## ✨ Tecnologias Utilizadas
 
 🖥️ Frontend: HTML5 + JavaScript (ES6+) + Bootstrap 5
 
@@ -10,7 +12,9 @@
 
 📡 API REST: Fetch com cabeçalho x-api-key
 
-🎯 Funcionalidades
+---
+
+## 🎯 Funcionalidades
 
 🔹 1. Ordenação de Valores
 
@@ -44,7 +48,13 @@
 
 🧩 Layout com flex-wrap e centralização via Bootstrap
 
-🚀 Como Executar o Projeto
+---
+
+## 🚀 Como Executar o Projeto
+
+### 1️⃣ Clonar o repositório
+
+```bash
 
 1️⃣ Clonar o repositório ou baixar os arquivos
 
@@ -57,9 +67,13 @@ Para usuarios.html, recomenda-se:
 Conexão ativa à internet
 
 Uso do Live Server no VS Code para evitar erros de CORS ao consumir a API externa
+```
+
+---
 
 📦 Estrutura de Pastas
 
+```bash
 exemplosjs/
 ├── ordenando.html       # Página com ordenação e manipulação DOM
 ├── ordenando.js         # Funções de ordenação e embaralhamento
@@ -68,6 +82,7 @@ exemplosjs/
 ├── bolo.jpg             # Imagem: Bolo de Café
 ├── coxinha.jpg          # Imagem: Coxinha de Brigadeiro
 ├── usuarios.html        # Consumo de API REST com Vue.js
+```
 
 📌 Observações
 
