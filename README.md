@@ -90,9 +90,11 @@ Ideal para fins educacionais em disciplinas de Desenvolvimento Web Interativo.
 
 ---
 
+```
 👨‍🎓 Autor
 👨‍🏫 Desenvolvido por Edson Victor
 📚 Projeto Acadêmico – Desenvolvimento Full Stack
 📆 2025
+```
 
 <p align="center"><strong>✔️ Trabalho 100% funcional e pronto para entrega!</strong></p>
