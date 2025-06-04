@@ -1,103 +1,86 @@
----
+<h1 align="center">🧠 Projeto JavaScript Interativo</h1> <p align="center"> Aplicação web com ordenação de dados, receitas dinâmicas em JSON e consumo de API REST com Vue.js 🍽️🧮👥 </p>
 
-## 🧠 Objetivos do Projeto
+✨ Tecnologias Utilizadas
 
-- Implementar algoritmos de ordenação com JavaScript.
-- Manipular elementos da página usando DOM.
-- Utilizar estrutura de dados em JSON para construir conteúdos dinâmicos.
-- Consumir API REST com Vue.js para exibir dados em tempo real.
-- Aplicar estilo com Bootstrap 5.
+🖥️ Frontend: HTML5 + JavaScript (ES6+) + Bootstrap 5
 
----
+🔄 Estrutura de Dados: JSON
 
-## 📁 Estrutura do Projeto
+🌐 Framework JS: Vue.js 2.x
 
-```bash
+📡 API REST: Fetch com cabeçalho x-api-key
+
+🎯 Funcionalidades
+
+🔹 1. Ordenação de Valores
+
+✅ Campo de input para inserir valores numéricos
+
+🔁 Algoritmos: Bubble Sort, Selection Sort e Quick Sort
+
+🧠 Arrow functions aplicadas na lógica
+
+🖱️ Botões para adicionar, ordenar e embaralhar os dados
+
+🎯 Manipulação de elementos usando DOM clássico
+
+🔹 2. Catálogo de Receitas Dinâmico
+
+📄 Renderização de cards com dados vindos de um array de objetos JSON
+
+🍰 Atributos: título, ingredientes, modo de preparo e imagem
+
+🎨 Layout com cards centralizados do Bootstrap
+
+⚙️ Renderização automática com onload
+
+🔹 3. Exibição de Usuários via API REST
+
+🌍 Consumo da API pública reqres.in com Vue.js
+
+🔐 Cabeçalho da requisição: x-api-key: reqres-free-v1
+
+👤 Exibição de nome, e-mail e avatar em cards responsivos
+
+🧩 Layout com flex-wrap e centralização via Bootstrap
+
+🚀 Como Executar o Projeto
+
+1️⃣ Clonar o repositório ou baixar os arquivos
+
+git clone https://github.com/seuusuario/projeto-js-interativo.git
+
+2️⃣ Abrir os arquivos .html no navegador
+
+Para usuarios.html, recomenda-se:
+
+Conexão ativa à internet
+
+Uso do Live Server no VS Code para evitar erros de CORS ao consumir a API externa
+
+📦 Estrutura de Pastas
+
 exemplosjs/
-├── ordenando.html       # Página com algoritmos de ordenação e manipulação DOM
-├── ordenando.js         # Funções JavaScript para ordenação e embaralhamento
-├── receitas.html        # Página com cards de receitas gerados dinamicamente via JSON
-├── arroz.jpg            # Imagem da receita "Arroz de Couve-Flor"
-├── bolo.jpg             # Imagem da receita "Bolo de Café"
-├── coxinha.jpg          # Imagem da receita "Coxinha de Brigadeiro"
-├── usuarios.html        # Página que consome API REST (reqres.in) com Vue.js
+├── ordenando.html       # Página com ordenação e manipulação DOM
+├── ordenando.js         # Funções de ordenação e embaralhamento
+├── receitas.html        # Cards dinâmicos com receitas via JSON
+├── arroz.jpg            # Imagem: Arroz de Couve-Flor
+├── bolo.jpg             # Imagem: Bolo de Café
+├── coxinha.jpg          # Imagem: Coxinha de Brigadeiro
+├── usuarios.html        # Consumo de API REST com Vue.js
 
+📌 Observações
 
-🔹 1. Ordenação de Valores (ordenando.html + ordenando.js)
+O projeto foi desenvolvido com foco no uso prático de estruturas de dados, DOM e requisições assíncronas.
 
-✨ Funcionalidades:
+Utiliza boas práticas com arrow functions, modularização e responsividade com Bootstrap.
 
-Campo de input para inserir valores numéricos.
+Ideal para estudos de JavaScript moderno e integração com APIs REST.
 
-Botões para adicionar, ordenar (com Bubble Sort, Selection Sort ou Quick Sort) e misturar valores.
+👨‍🎓 Autor
 
-Utiliza DOM clássico para criar elementos li dinamicamente e atualizar a interface.
+👨‍🏫 Desenvolvido por Edson Victor
+📚 Projeto Acadêmico – Desenvolvimento Full Stack
+📆 2025
 
-Funções implementadas com Arrow Functions para os algoritmos e manipulação.
-
-🔹 2. Catálogo de Receitas Dinâmico (receitas.html)
-
-✨ Funcionalidades:
-
-Utiliza vetor de objetos JSON contendo:
-
-título da receita
-
-ingredientes (array)
-
-modo de preparo
-
-imagem
-
-Cada receita é exibida como um card do Bootstrap, gerado via JavaScript.
-
-Imagens com tamanho padronizado (150px de altura) e interface centralizada.
-
-Exibição automática no carregamento da página com onload.
-
-🔹 3. Exibição de Usuários via API REST (usuarios.html)
-
-✨ Funcionalidades:
-
-Consome API pública reqres.in utilizando Vue.js.
-
-Os dados são carregados automaticamente via Fetch API no mounted().
-
-Utiliza x-api-key: reqres-free-v1 no cabeçalho da requisição.
-
-Exibição de cards responsivos com nome, e-mail e avatar de cada usuário.
-
-Layout centralizado com Bootstrap e flex-wrap.
-
-📌 Tecnologias Utilizadas:
-
-HTML5
-
-JavaScript (ES6+)
-
-DOM API
-
-JSON
-
-Vue.js 2.x
-
-Bootstrap 5
-
-Fetch API
-
-🚀 Como Executar:
-
-Clone o repositório ou baixe os arquivos.
-
-Abra os arquivos .html no navegador.
-
-Para a página usuarios.html, certifique-se de:
-
-Estar com conexão ativa à internet.
-
-Preferencialmente utilizar o recurso Live Server do VS Code para evitar problemas de CORS ao consumir a API.
-
-👨‍🏫 Autor
-
-Projeto desenvolvido por Edson Victor
-Curso: Desenvolvimento Full Stack
+<p align="center"> <strong>✔️ Trabalho 100% funcional e pronto para entrega!</strong> </p>
