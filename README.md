@@ -67,6 +67,7 @@ Utilizar o Live Server do VS Code para evitar problemas de CORS
 
 📦 Estrutura de Pastas
 
+```
 exemplosjs/
 ├── ordenando.html       # Página com ordenação e manipulação DOM
 ├── ordenando.js         # Funções de ordenação e embaralhamento
@@ -75,6 +76,7 @@ exemplosjs/
 ├── bolo.jpg             # Imagem: Bolo de Café
 ├── coxinha.jpg          # Imagem: Coxinha de Brigadeiro
 ├── usuarios.html        # Consumo de API REST com Vue.js
+```
 
 ---
 
